@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos
 MAINTAINER Ivan Xu "theivanxu@gmail.com"
 ENV REFRESHED_AT 2017-06-26
 RUN yum -y install ruby rubygems rubygem-rake
